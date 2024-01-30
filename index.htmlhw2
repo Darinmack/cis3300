@@ -12,12 +12,12 @@
    .container{
 	   display:flex;
 	   flex-wrap: wrap;
-	   gap:50px;
+	   gap:60px;
    }
    .column{
-	   border: 1px solid black;
-	   padding:50px;
-	   width:25px;
+	   
+	   padding:80px;
+	   width:35px;
    }
 
   </style>
@@ -30,7 +30,7 @@
   <br>
   <h3> Where we can fufill all your needs, in just one stop!!</h3>
   <br>
-  <img src="pictures/join.jpg" alt="Come on Down" width="100%">
+  <img src="classwork/pictures/join.jpg" alt="Come on Down" width="100%">
   <br>
   <br>
   </center>
@@ -166,7 +166,7 @@
 <h1> That's ALL. Have fun Shopping!!! <h1>
 </div>
 
-<img src="https://nedlandsgroup.com.au/wp-content/uploads/2021/11/Shopping-Mall.jpg" alt="Shopping"  width="500" height="700" >
+<img src="https://nedlandsgroup.com.au/wp-content/uploads/2021/11/Shopping-Mall.jpg" alt="Shopping"  width="1000" height="700" >
 
 </center>
 
