@@ -1,0 +1,162 @@
+ <!DOCTYPE html>
+   <html>
+   <head>
+   <title> WONDER STORE </title>
+   </head>
+  
+   <style>
+   table, th, td {
+     border:1px solid black;
+  }
+  </style>
+ 
+  <body>
+  <center>
+ 
+  <h1> Welcome to Our Store, Where you only need to make ONE STOP!!! </h1>
+  <br>
+  <br>
+  <h3> Where we can fufill all your needs, in just one stop!!</h3>
+  <br>
+  <img src="classwork/join.jpg" alt="Come on Down" width="100%">
+  <br>
+  <br>
+  </center>
+ 
+ 
+  <p> We have everything you want from clothes/shoes, to books, to jewelry and so much more!!</p>
+  <br>
+  <br>
+ 
+  <h4> Browse look around and see what interests you!!</h4>
+  <br>
+  <br>
+  <p> You might find something you like.</p>
+  <br>
+  <br>
+
+  <center>
+ <h2> LOOK AT ALL WE HAVE TO OFFER </h2>
+  </center>
+ 
+  <div class="row">
+
+  <div class="column">
+  <h3> Clothes </h3>
+  <ul>
+    <li>Graphic Tees</li>
+    <li>Hoodies</li>
+    <li> Sweaters </li>
+    <li>Sweatpants</li>
+    <li>Jeans </li>
+    <li>Dress Shirts <li>
+    <li> Suits </li>
+  </ul>
+  </div>
+ 
+  <div class=column">
+  <h3>Books </h3>
+  <ul>
+     <li>Action/Adventure</li>
+      <li>Romance</li>
+      <li>Mystery </li>
+      <li>Horror</li>
+      <li>Fairy Tale</li>
+      <li>History<li>
+      <li>Science Fiction</li>
+   </ul>
+  </div>
+
+ <div class=column">
+    <h3>Jewelry </h3>
+    <ul>
+       <li>Rings</li>
+        <li>Bracelets</li>
+        <li> Necklaces </li>
+        <li>Earrings</li>
+        <li>Chains</li>
+        <li>Anklets<li>
+        <li>Amulets</li>
+    <ul>
+  </div>
+ 
+   <div class=column">
+    <h3>Shoes </h3>
+    <ol>
+       <li>Jordan</li>
+        <li>Nike</li>
+        <li>Adidas </li>
+        <li>New Balance </li>
+        <li> Converse  </li>
+        <li> Reebok </li>
+     </ol>
+    </div>
+ 
+  </div>
+ 
+ 
+	  <h2> Our IN-Person Locations and Store Hours</h2>
+  <table style="width:100%">
+	<thead>
+       	  <tr>
+      		<th>Locations</th>
+      		<th>Regular Hrs</th>
+     	 	<th>Holidays</th>
+    	  </tr>
+  	</thead>
+
+    <tr>
+     <td>NY</td>
+     <td>8am-9pm</td>
+     <td>8am-5pm</td>
+   </tr>
+
+   <tr>
+     <td>Cali</td>
+     <td>7am-7pm</td>
+     <td>7am-4pm</td>
+   </tr>
+
+  </table>
+
+
+
+ <p> <span> <b>We want to address your problems no matter how big </b> </span>  <span> <small> or how small they may be!! </small> </span> </p>
+
+ <h1>Be sure to click on the link below in order to head on over to our checkout page!!!</h1>
+ <a href="checkout.html">Checkout PAGE HERE!!!</a>
+
+<br> 
+<br>
+
+ <a href= "https://www.amazon.com/"> You can also check out this Amazon link!!! </a> 
+ <p> We are not sponsored, I repeat, NOT sponsored </p>
+ <br>
+ <br>
+
+  <h2>Contact Us</h2>
+
+         <form action="/submit" method="post">
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" >
+
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email">
+         </form>
+
+<center>
+	<br>
+	<br>
+<div>
+<h1> That's ALL. Have fun Shopping!!! <h1>
+</div>
+
+<img src="https://nedlandsgroup.com.au/wp-content/uploads/2021/11/Shopping-Mall.jpg" alt="Shopping" >
+
+</center>
+
+
+ </body>
+</html>
+                                               
+
