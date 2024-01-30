@@ -1,0 +1,44 @@
+1.) What happens from the time a user puts a URL into their browser to when they are able
+to view a webpage?
+
+Type a URL in your browser and press Enter
+ It’s then connected by ISP
+Then connect to DNS get IP address
+Connects  to web server at IP address
+Web server sends the page 
+
+- Briefly define ISP, URL, DNS, web server.
+ISP-  stands for Internet Service Provider and is essentially the company that provides you with Internet access( for both individuals and businesses alike.
+URL- stands for Uniform Resource Locator and basically nothing more than the address/location to a specific resource that you can access on the Web.
+DNS-  A domain name system and its simply just like a phonebook of the internet. It translates domain names into IP addresses so that browsers can load or get to websites and internet resources 
+Web server- it delivers data,like content to users/clients through the internet via web browser. 
+
+
+2.)What is html? What does it do?
+
+  HTML- HTML stands for HyperText Markup Language and it basically defines the content and structure of web content that we view on the internet/websites/web browsers   
+
+
+3.) In your own words, describe how this webpage uses
+structure to convey meaning and navigation options to the user.
+
+
+It has bright bold headers, banners with lists and dropdown menus with multiple links that redirect you elsewhere. There are multiple  subsections/banners with their own images and links and paragraphs with additional information. 
+
+There’s even an events sliders with arrow options to see the upcoming events and their coinciding dates 
+
+I think it does a great job of having everything organized in terms of the links and how they are grouped from academics to student life to an about page and also resources.  
+Each header item in the header-nav button has its own personal page with its additional easy to follow and navigate links along with lists and images alike. 
+
+
+4.) What is an html element? Tag? Attribute?
+
+HTML element is a component of an HTML document, essentially the building blocks.
+
+
+
+ The HTML tag  basically dictates the start and end of html elements with some content in between.(keywords that define how a web browser will format and display content), they act like containers. They tell you something about the information that lies between their opening and closing tags.
+
+HTML attribute just provides additional information about elements, adjusting their behavior to meet demands of the users. They are specified in the start tag and for the most parts come in name/value pairs, name=”value”
+  
+

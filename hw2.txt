@@ -1,0 +1,24 @@
+1. Define structural vs semantic meaning in regard to HTML elements.
+
+Structural markup: the markup that structures the page layout. 
+Semantic markup: provides extra information; the name of the tag indicates something about the content. 
+
+
+
+2. Why is it important to use correct html elements when designing web pages?
+
+HTML is the backbone of website design and function. It provides a structure for web pages that allows browsers to understand and display the content on the page. Html tags define the structure of a web page by indicating the hierarchy and relationships between different elements.The semantic structure of it all is important as well as performance and maintenance, which can falter if there aren’t the correct html elements. 
+
+
+3. What are forms in html? What is their purpose? When would you use one?
+
+Forms allows user to input data/information ( basically collect user input) 
+HTML borrows the concept of a form to refer to different elements that allow you to collect information from visitors to your site. In addition to enabling users to search, forms also allow users to perform other functions online. Examples of seeing forms can be  as a member of a website, when shopping online, and when signing up for newsletters or mailing lists.
+
+
+4. Define and contrast inline vs block elements.
+
+There are some elements that  will always appear to start on a new line in the browser window. (Block) Some examples being <h1>, <p>, <ul>, and <li>.
+
+And there are some elements that will always appear to continue on the same line as their neighboring elements.(Inline) Examples include : <a>, <b>, <em>, and <img>.
+
