@@ -13,7 +13,7 @@
  
   <body>
  
-  </center>
+  <center>
   <h1> ALL ABOUT ME </h1>
  
   </center>
@@ -21,28 +21,31 @@
  
   <h3> My name is Darin McFarlane </h3>
  
-  </br>
-  </br>
-  </center>
+  <br>
+  <br>
+  
  
   <p> I'm a junior here at Fordham majoring in Compsci, wanting a minor in cybersecurity</p>
-  </br
-  </br>
+  <br>
+  <br>
   <p> I'm orginally from the bronx, NY but I moved a little bit upstate  to Suffern, NY. </p>
-
-  <h2> I haven't fully decided what I want to do career wise, but hopefully it has something to do with either software engineering     or cybersecurity </h2>
- 
+  <br>
+  <br>
+  <h3> I haven't fully decided what I want to do career wise, but hopefully it has something to do with either software engineering or cybersecurity </h3>
+ <br>
   <p> I don't have any pets, though I wish I did. I have two sisters and one brother(an older brother and sister, with one younger     sister </p>
  
- 
+ <br>
  
   <h4>That covers just some basic information about me </h4>
+  <br>
+  <br>
+
   <center>
  
-  <h1> THANKS FOR STOPPING BY </h1>
+  <h1> THANKS FOR STOPPING BY!! </h1>
   </center>
  
   </body>
- 
- 
+
   </html>
