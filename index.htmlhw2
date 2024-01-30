@@ -8,6 +8,18 @@
    table, th, td {
      border:1px solid black;
   }
+
+   .container{
+	   display:flex;
+	   flex-wrap: wrap;
+	   gap:50px;
+   }
+   .column{
+	   border: 1px solid black;
+	   padding:50px;
+	   width:25px;
+   }
+
   </style>
  
   <body>
@@ -18,7 +30,7 @@
   <br>
   <h3> Where we can fufill all your needs, in just one stop!!</h3>
   <br>
-  <img src="classwork/join.jpg" alt="Come on Down" width="100%">
+  <img src="pictures/join.jpg" alt="Come on Down" width="100%">
   <br>
   <br>
   </center>
@@ -39,7 +51,7 @@
  <h2> LOOK AT ALL WE HAVE TO OFFER </h2>
   </center>
  
-  <div class="row">
+  <div class="container">
 
   <div class="column">
   <h3> Clothes </h3>
@@ -118,11 +130,14 @@
    </tr>
 
   </table>
-
+  <br>
+  <br>
 
 
  <p> <span> <b>We want to address your problems no matter how big </b> </span>  <span> <small> or how small they may be!! </small> </span> </p>
-
+ <br>
+ <br>
+ <br>
  <h1>Be sure to click on the link below in order to head on over to our checkout page!!!</h1>
  <a href="checkout.html">Checkout PAGE HERE!!!</a>
 
@@ -130,7 +145,7 @@
 <br>
 
  <a href= "https://www.amazon.com/"> You can also check out this Amazon link!!! </a> 
- <p> We are not sponsored, I repeat, NOT sponsored </p>
+ 
  <br>
  <br>
 
@@ -151,7 +166,7 @@
 <h1> That's ALL. Have fun Shopping!!! <h1>
 </div>
 
-<img src="https://nedlandsgroup.com.au/wp-content/uploads/2021/11/Shopping-Mall.jpg" alt="Shopping" >
+<img src="https://nedlandsgroup.com.au/wp-content/uploads/2021/11/Shopping-Mall.jpg" alt="Shopping"  width="500" height="700" >
 
 </center>
 
