@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <meta charset="UTF-8">
+    <title>HW#3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="parent-container">
+
+        <div class="majors-container">
+
+            <div class="majors-content-container">
+                <p id="min">Majors and Minors</p>
+                <div class="inner">
+                    <p>What's Your Passion?</p>
+                    <p>Accelerated Degree Programs</p>
+                </div>
+                <div class="major-button">Majors and Minors</div>
+            </div>
+
+        </div>
+        <div class="computer-science-container">
+
+            <div class="computer-science-content-container">
+                <div class="nav">
+
+                    Home
+                    <span class="divider">/</span>
+                    Admissions and Aid
+                    <span class="divider">/</span>
+                    Undergraduate Admission
+                    <span class="divider">/</span>
+                    Majors and Minors
+                    <span class="divider">/</span>
+                    Computer Science
+
+                </div>
+                <h1 id="comp">Computer Science</h1>
+                <div>Degree Options: Major, Minor</div>
+                <div>Locations:Lincoln Center, Rose Hill</div>
+                <div>Vist the <a href="https://www.fordham.edu/academics/departments/computer-and-information-science/"
+                        style="color:#900028;">Computer and Information Science Department</a></div>
+            </div>
+            <p class="leader">Wherever there's a computer, there's a skilled person developing, maintaining, hacking,
+                advancing or simply using it. Be that person.</p>
+            <p class="general-content">
+                <img src="https://www.fordham.edu/media/review/content-assets/migrated/images/iStock_000021097427Medium.jpg"
+                    alt="Stock photo of green circuit board - LG" id="small">
+                It's difficult to imagine life without computers when they're so central to our information-driven
+                global society. But it's not difficult to imagine the amazing pursuits you'll be prepared for with a
+                degree in computer science from Fordham's department of Computer and Information Sciences.
+            </p>
+            <p class="general-content">The computer science major emphasizes science and technology, including software
+                design and programming, computer architecture and functions, and the development of an ability to
+                analyze and solve problems in using the computer as a tool.</p>
+
+            <p class="general-content">Get inspired by the classes we offer. Programming. Bioinformatics. Robotics.
+                Video game design. Cyber security. Networking. Database management. Health and medical informatics.</p>
+
+
+            </p>
+        </div>
+
+    </div>
+
+    <style>
+        #min {
+            font-size: 20px;
+            font-weight: 800;
+            color: #900028;
+            padding-bottom: 20px;
+           
+        }
+
+        #comp {
+
+            color: #900028;
+            padding-bottom: 20px;
+            font-size: 50px;
+        }
+
+        .leader {
+            font-weight: 550;
+            font-weight: light;
+       
+            line-height: 1.6;
+            font-size:larger;
+        }
+
+
+        #small {
+            max-width:35%;
+            float: right;
+           
+            margin-left: 3%;
+            margin-top: 5%;
+            padding-bottom: 1%;
+        }
+
+
+
+        body {
+            height: 100vh;
+            font-family: 'Raleway', sans-serif;
+
+        }
+
+        .parent-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .computer-science-container {
+            order: 1;
+            padding: 0 50px;
+        }
+
+        .majors-container {
+            order: 2;
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #e7ebe7;
+        }
+
+        .majors-content-container {
+            padding: 0 50px;
+        }
+
+        .nav {
+            padding-bottom: 20px;
+        }
+
+        .divider {
+            padding: 0 5px;
+        }
+
+        @media screen and (min-width: 1200px) {
+
+            .parent-container {
+                flex-direction: row;
+            }
+
+            .computer-science-container {
+                width: 900px;
+                order: 2;
+            }
+
+            .majors-container {
+                width: 300px;
+                order: 1
+            }
+        }
+
+        .majors-container .majors-content-container p {
+            margin: 0;
+        }
+
+        .major-button {
+            font-size: large;
+            text-align: center;
+            background-color: maroon;
+            color: white;
+            width: 200px;
+            height: 35px;
+            padding-bottom: 10px;
+            padding-top: 20px;
+            font-weight: 600;
+        }
+
+        .computer-science-container .computer-science-content-container h1 {
+            margin: 0;
+        }
+
+        .computer-science-container .general-content {
+
+            color: #333;
+            padding: 0;
+            margin-top: 0;
+            font-weight: 100;
+            line-height: 1.6;
+            letter-spacing: 0;
+            font-size: larger;
+            flex-wrap: wrap;
+
+        }
+
+        .inner {
+            padding-top: 15px;
+            padding-bottom: 25px;
+            padding-left: 5px;
+            font-size: 14px;
+                text-align: left;
+                background-color: #d4d6d5;
+                color:black;
+                width: 210px;
+            height: 35px;
+           margin-bottom: 10%;
+           line-height: 1.5;
+        }
+    </style>
+
+
+
+</body>
+
+</html>
