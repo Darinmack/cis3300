@@ -1,0 +1,34 @@
+1.What is javascript? How does an interpreted programming language differ from a
+compiled language?
+
+JavaScript is a lightweight programming language commonly used by web developers to add dynamic interactions to web pages, applications, servers, and even games.
+
+For compiled languages, once the program compiles  it is expressed in the instructions of the target machine, said machine code is undecipherable by humans. 
+
+Interpreted language is one that is generally interpreted, without compiling a program into machine instructions, the instructions are read and executed by another program(an interpreter) rather than directly executed by the target machine. 
+
+
+2. What is the difference between var, let, and const when declaring variables?
+
+var: old school, global+function scoped, redeclarable   
+Variables declared with var are function-scoped or globally scoped.
+They can be re-declared and updated throughout the function or global scope.
+
+let: block scoped, redeclarable
+Variables declared with let are block-scoped, are redeclarable, can be updated
+
+const: block scoped, not declarable 
+Variables declared with const are block-scoped but they cannot be re-assigned once they are initialized. In other words, once a value is assigned to a const, it cannot be changed.
+
+
+3. What are anonymous functions? Higher order functions?
+Anonymous functions are function without a name
+Higher order functions are functions that return functions or take other functions as arguments
+
+4. Define objects in JavaScript and how they are different from objects in more traditional
+OOP languages.
+
+Objects are data structures consisting of key value pairs, or in other words essentially a collection of properties and a property is an association between a name and a value. 
+
+In JavaScript, objects are very flexible. JavaScript is dynamically typed, so there’s no need to declare the type of variable, same goes for objects. In more traditional OOP languages, you may more than likely have to explicitly define the type of each property and method in a class.
+In JavaScript, objects can be created using literal notation, constructor functions, or the class syntax introduced in newer versions of JavaScript. In JavaScript, objects can inherit properties and methods from other objects.
