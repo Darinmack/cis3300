@@ -1,0 +1,20 @@
+4. What is the DOM? What is meant by the DOM tree?
+The DOM is Document Object Model (DOM) which basically specifies how browsers can
+ create model of an HTML page and how Javascript is able to gain access to and update the 
+  contents of a web page while it's in the browser live page browser. It's essentially the live rendering representation of the said page(HTML) you're viewing.
+The DOM is in control of what your script can ask broswers about the current page and how/what to update whatever is being shown to the user.
+
+DOM tree is the model of the loading browser web page and there are 4  main parts(nodes)
+(-document node, -element nodes, -attribute nodes, text nodes)
+
+
+
+
+5. What is a XSS attack? How do they work? How can you guard against them?
+
+Cross-site Scripting Attacks or XSS atacks are when malicous users add codes/injects dangerous/malicious executable scripts to an input,link etc, and said code could potentially be run for different users. 
+This is something to be wary of when using innerHTML.
+How you should be guarding against that is to be very careful with what content you treat as html
+Very rarely shoudl it have the option to have come from a user at all
+If it comes down to having options to validate that input, strip it of potential malicious intent by removing tags, escaping characters, etc. 
+
