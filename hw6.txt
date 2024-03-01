@@ -1,0 +1,30 @@
+// Hw #6 
+
+1.What is HTTP? What are the different HTTP request methods and how do they differ?
+HTTP is hyper text transfer protocol, it's how the internet is able to hanlde communication between the various clients and servers
+ This is done through requests and responses to those requests.
+ Requests are initiated through the recipient, usually the web browser.
+
+The different requests are
+
+Get: which only retrieves data
+Post: sumbits an entity to the specified resource, causing a change in the state on the server, its usually something to be saved
+Put: (replaces all current representations of target resource with the request payload) updates everything for a resource
+Patch: partially modifies a resource( post is more common)
+Delete: deletes said resource.
+
+
+
+
+2. What is an API? What is JSON?
+
+API is application programming interface, it's a way for two or more computer programs or compenents to be able to communicate with each other.
+
+JSON is Javascript Object Notation, basically text data but JS is ready and willing to parse it into javascript objects and vice versa
+
+
+3. What is AJAX? What is meant by asynchronous code?
+AJAX is Asynchronous Javascript and XML. It's a technique for loading data into a part of a page without the need to refresh the entire page.
+
+Asynchronous code means you can run code in the background without blocking the execution of other code.
+Allows code blocks to execute at a future point in time. 
