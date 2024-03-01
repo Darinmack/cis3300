@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Anime Quotes</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <h1>Random Anime Quotes</h1>
+    <button id="getQuoteButton">Get Random Quote</button>
+    <div id="quotes"></div>
+
+    <script>
+        $(document).ready(function() {
+        
+            function getAnimeQuote() {
+                $.ajax({
+                    url: 'https://animechan.xyz/api/random',
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(data) {
+                    
+                        $('#quotes').html(`<p><strong>Character:</strong> ${data.character}</p>
+                                                   <p><strong>Anime:</strong> ${data.anime}</p>
+                                                   <p><strong>Quote:</strong> ${data.quote}</p>`);
+                    },
+                    
+                });
+            }
+
+           
+            $('#getQuoteButton').on('click', function() {
+                getAnimeQuote();
+            });
+
+            
+        });
+    </script>
+</body>
+</html>
