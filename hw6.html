@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP Requests</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<br>
+
+<h1>Click below to make different requests through jquery for our Json Server </h1>
+<br>
+<br>
+<center>
+<label  id="me"for="go">Click  ME!!!!</label>
+<button id="go">Go</button>
+</center>
+
+
+<script>
+
+
+    $('#go').on('click', function () {
+        
+        $.ajax({
+            url: 'http://localhost:3000/comments',
+            type: "GET",
+            dataType: "json",
+            success: function (data) {
+          
+                console.log(data);
+            }
+        });
+    })
+
+
+ 
+$('#go').on('click', function () {
+   
+    const data = {
+   
+        id: '3',
+        text: `Just some more text`,
+        likes: `150`,
+    }
+
+    const theJSON = JSON.stringify(data)
+   
+    $.ajax({
+        
+        url: 'http://localhost:3000/comments',
+        type: "POST",
+        data: theJSON,
+        dataType: "json",
+        success: function (data) {
+           
+            console.log(data);
+                        
+                   }
+    });
+
+});
+
+
+
+
+$('#go').on('click', function () {
+   
+    const data = {
+        id: `3`,
+        text: `Summer`,
+        views : `400`
+    }
+
+    const theJSON = JSON.stringify(data)
+   
+    $.ajax({
+        
+        url: 'http://localhost:3000/posts/2',
+        type: "PUT",
+        data: theJSON,
+        dataType: "json",
+        success: function (data) {
+           
+            console.log(data);
+                        
+                   }
+    });
+
+});
+
+
+</script>
+
+<style>
+   #me{
+    font-size: xx-large;
+   }
+
+   #go{
+    font-size: x-large;
+   }
+</style>
+</body>
+</html>
